@@ -1,0 +1,9 @@
+data_type: emidec_diff_seg
+root_dir: ???
+image_channels: 1
+dataset_root_dir_norm: ???
+dataset_root_dir_path: ???
+dataset_root_dir_valid: ???
+root_dir_norm: ???
+root_dir_path: ???
+root_dir_valid: ???

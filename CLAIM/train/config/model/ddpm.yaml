@@ -1,0 +1,37 @@
+diffusion_img_size: ???
+diffusion_depth_size: ???
+diffusion_num_channels: ???
+cond_dim: ???
+dim_mults: [1,2,4,8]
+results_folder: ???
+seg_results_folder: ???
+load_milestone: False
+batch_size: 18
+num_workers: 20
+logger: wandb
+objective: pred_x0
+seg_num_classes: 4
+seg_lr: 0.01
+seg_weight_decay: 0.00003
+seg_num_epochs: 1000
+seg_optimizer_name: SGD
+seg_network_type: nnUNet
+seg_image_width: 160
+seg_image_height: 160
+seg_nnUNet_plan_file: "/home/farheen/E/Scar_Syhthesis/LeFusion/LeFusion-main/nnUNet/nnUNet_preprocessed/Dataset111_EMIDEC/nnUNetPlans.json"
+seg_pretrained_weights: "/home/farheen/E/Scar_Syhthesis/LeFusion/LeFusion-main/nnUNet/nnUNet_results/Dataset111_EMIDEC/nnUNetTrainer__nnUNetPlans__2d/fold_0/checkpoint_best.pth"
+types: 1
+
+
+save_and_sample_every: 1000
+denoising_fn: Unet3D
+train_lr: 1e-4
+timesteps: 300 
+sampling_timesteps: 300 
+loss_type: l1 
+train_num_steps: 50001 
+gradient_accumulate_every: 1
+ema_decay: 0.995 
+amp: False 
+num_sample_rows: 1
+gpus: 0

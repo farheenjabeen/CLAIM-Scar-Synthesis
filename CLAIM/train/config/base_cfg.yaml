@@ -1,0 +1,11 @@
+defaults:
+  - dataset: lidc
+  - model: ddpm
+
+schedule_jump_params:
+  t_T: 300
+  n_sample: 1
+  jump_length: 10
+  jump_n_sample: 10
+
+inpa_inj_sched_prev_cumnoise: false
