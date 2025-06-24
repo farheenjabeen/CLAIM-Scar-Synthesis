@@ -3,9 +3,6 @@ CLAIM has been accepted by [AIiH 2025](https://aiih.cc/)
 
 ![Figure1](https://github.com/farheenjabeen/CLAIM-Scar-Synthesis/blob/main/Figure1.png)
 
-## Acknowledgement
-Our code is based on [LeFusion](https://github.com/M3DV/LeFusion), and we greatly appreciate the efforts of the respective authors for providing open-source code.
-
 ## Citation
 ```
 @article{ramzan2025claim,
@@ -15,3 +12,6 @@ Our code is based on [LeFusion](https://github.com/M3DV/LeFusion), and we greatl
   year={2025}
 }
 ```
+
+## Acknowledgement
+Our code is based on [LeFusion](https://github.com/M3DV/LeFusion), and we greatly appreciate the efforts of the respective authors for providing open-source code.
